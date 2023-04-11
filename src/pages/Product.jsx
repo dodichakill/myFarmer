@@ -13,31 +13,31 @@ const showProductBibit = () => (
       price="60.000"
     />
     <CardProduct
-      key={1}
+      key={2}
       location="Kota Tegal"
       name="Jagung Manis Master Sweet 250GR"
       price="60.000"
     />
     <CardProduct
-      key={1}
+      key={3}
       location="Kota Tegal"
       name="Jagung Manis Master Sweet 250GR"
       price="60.000"
     />
     <CardProduct
-      key={1}
+      key={4}
       location="Kota Tegal"
       name="Jagung Manis Master Sweet 250GR"
       price="60.000"
     />
     <CardProduct
-      key={1}
+      key={5}
       location="Kota Tegal"
       name="Jagung Manis Master Sweet 250GR"
       price="60.000"
     />
     <CardProduct
-      key={1}
+      key={6}
       location="Kota Tegal"
       name="Jagung Manis Master Sweet 250GR"
       price="60.000"

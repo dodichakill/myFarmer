@@ -7,6 +7,8 @@ import Cart from "../pages/Cart";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import DetailProduct from "../pages/DetailProduct";
+import Stock from "../pages/Stock";
+import Store from "../pages/Store";
 
 export const routes = createBrowserRouter([
   {
@@ -36,5 +38,13 @@ export const routes = createBrowserRouter([
   {
     path: "/detail-product",
     element: <DetailProduct />,
+  },
+  {
+    path: "/stock",
+    element: <Stock />,
+  },
+  {
+    path: "/store",
+    element: <Store />,
   },
 ]);

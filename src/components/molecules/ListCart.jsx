@@ -7,14 +7,19 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-export default function ListCart() {
+export default function ListCart({ isCheck = false }) {
   return (
     <div className="border-b-2 border-slate-200 flex items-center w-full">
-      <input type="checkbox" className="checkbox checkbox-info " id="all" />
+      <input
+        type="checkbox"
+        checked={isCheck}
+        className="checkbox checkbox-info "
+        id="all"
+      />
       <div className="w-full p-5 pb-2 flex">
         <div className="w-40 h-28 rounded-lg">
           <img
-            src="/public/assets/img/imgProduct.png"
+            src="/assets/img/imgProduct.png"
             alt="img"
             className="w-full h-full rounded-lg object-cover"
           />

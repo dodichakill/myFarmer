@@ -24,10 +24,11 @@ export default function Cart() {
                 </label>
               </div>
             </div>
-            <ListCart />
-            <ListCart />
-            <ListCart />
-            <ListCart />
+            <ListCart isCheck={true} />
+            <ListCart isCheck={true} />
+            <ListCart isCheck={true} />
+            <ListCart isCheck={true} />
+            <ListCart isCheck={true} />
             <ListCart />
           </div>
           <div className="w-1/3 h-fit p-5 bg-white rounded sticky top-32">
@@ -36,7 +37,7 @@ export default function Cart() {
             </h2>
             <div className="flex w-full justify-between text-slate-400">
               <p>Total Harga (5 barang) </p>
-              <p>Rp 150.000</p>
+              <p>Rp 250.000</p>
             </div>
             <div className="flex w-full justify-between text-slate-400">
               <p>Ongkos Kirim </p>
@@ -48,7 +49,7 @@ export default function Cart() {
             </div>
             <div className="flex w-full justify-between pt-4 border-t-2">
               <h2 className="font-bold text-slate-700 text-xl">Total Harga</h2>
-              <p className="text-slate-400 font-bold">Rp 166.000</p>
+              <p className="text-slate-400 font-bold">Rp 266.000</p>
             </div>
             <Button customStyle="w-full mt-5 rounded-xl">Beli Sekarang</Button>
           </div>

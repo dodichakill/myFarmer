@@ -1,13 +1,12 @@
 import React from "react";
 import Footer from "../organisms/Footer";
 import Header from "../organisms/Header";
-import { pageStyle } from "./pageStyle";
 
-export default function Page(props) {
+export default function Page({ typeNavbar, children }) {
   return (
     <div className="relative">
-      <Header />
-      <div style={{ margin: "10px" }}>{props.children}</div>
+      <Header type={typeNavbar} />
+      <div style={{ margin: "10px" }}>{children}</div>
       <Footer />
     </div>
   );

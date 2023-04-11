@@ -26,7 +26,7 @@ export default function Home() {
           </div>
           <div className="w-1/2 flex justify-center items-center">
             <img
-              src="/public/assets/img/heroImage.png"
+              src="/assets/img/heroImage.png"
               alt="hero image"
               className="w-[35em]"
             />

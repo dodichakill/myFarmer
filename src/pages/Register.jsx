@@ -6,7 +6,7 @@ export default function Register() {
   return (
     <div className="flex w-full h-screen">
       <div className="w-full p-2 flex justify-center items-center">
-        <img src="/public/assets/img/imgIlustration.png" alt="ilustration" />
+        <img src="/assets/img/imgIlustration.png" alt="ilustration" />
       </div>
       <div className="w-full p-5 flex justify-center items-center">
         <div className="w-96 p-5">
@@ -66,7 +66,7 @@ export default function Register() {
             </div>
           </div>
 
-          <div className="mt-4 pb-5 border-b-2 border-slate-100 flex gap-x-5">
+          <div className="mt-4 pb-5 border-b-2 border-slate-200 flex gap-x-5">
             <Button>Daftar Sekarang</Button>{" "}
             <Button type="etc" url="/">
               kembali

@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../atoms/Button";
 
 export default function CardVideo({
-  imgUrl = "/public/assets/img/imgVideo.png",
+  imgUrl = "/assets/img/imgVideo.png",
   name = "",
   urlVideo = "#",
 }) {

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDay } from "@fortawesome/free-solid-svg-icons";
 
 export default function CardArticle({
-  imgUrl = "/public/assets/img/imgArtikel.png",
+  imgUrl = "/assets/img/imgArtikel.png",
   name,
   urlArticle = "#",
   date = "10/04/2023",

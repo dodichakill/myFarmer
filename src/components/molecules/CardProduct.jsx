@@ -4,7 +4,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function CardProduct({
-  imgUrl = "/public/assets/img/imgProduct.png",
+  imgUrl = "/assets/img/imgProduct.png",
   name = "nama produk",
   price = 0,
   location = "kota tegal",
