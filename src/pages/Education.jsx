@@ -18,19 +18,26 @@ export default function Education() {
             Kategori artikel
           </h3>
           <CardArticle name="Intensifikasi Pertanian: Pengertian dan Contohnya" />
-          <CardArticle name="Intensifikasi Pertanian: Pengertian dan Contohnya" />
-          <CardArticle name="Intensifikasi Pertanian: Pengertian dan Contohnya" />
-          <CardArticle name="Intensifikasi Pertanian: Pengertian dan Contohnya" />
+          <CardArticle
+            name="Cara menjadi petani yang sukses"
+            imgUrl="/public/assets/img/education/tips sukses.jpg"
+            date="09/04/2023"
+          />
 
           <h3 className="font-bold text-green-700 mb-3 capitalize">
             Kategori Video
           </h3>
           <div className="flex p-2 gap-5 overflow-x-auto pb-4">
             <CardVideo name="Menanam Cabe Rawit tanpa olah tanah " />
+            <CardVideo
+              name="Memaksimalkan potensi tanah untuk pertanian "
+              imgUrl="/public/assets/img/education/tips sukses.jpg"
+            />
             <CardVideo name="Menanam Cabe Rawit tanpa olah tanah " />
-            <CardVideo name="Menanam Cabe Rawit tanpa olah tanah " />
-            <CardVideo name="Menanam Cabe Rawit tanpa olah tanah " />
-            <CardVideo name="Menanam Cabe Rawit tanpa olah tanah " />
+            <CardVideo
+              name="Memaksimalkan potensi tanah untuk pertanian "
+              imgUrl="/public/assets/img/education/tips sukses.jpg"
+            />
             <CardVideo name="Menanam Cabe Rawit tanpa olah tanah " />
           </div>
         </div>

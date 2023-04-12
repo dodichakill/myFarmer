@@ -7,7 +7,13 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-export default function ListCart({ isCheck = false }) {
+export default function ListCart({
+  isCheck = false,
+  imgUrl,
+  name,
+  price,
+  store,
+}) {
   return (
     <div className="border-b-2 border-slate-200 flex items-center w-full">
       <input
@@ -19,18 +25,16 @@ export default function ListCart({ isCheck = false }) {
       <div className="w-full p-5 pb-2 flex">
         <div className="w-40 h-28 rounded-lg">
           <img
-            src="/assets/img/imgProduct.png"
+            src={imgUrl}
             alt="img"
             className="w-full h-full rounded-lg object-cover"
           />
         </div>
         <div className="w-[40em] h-full  box-border p-5 flex flex-col items-start">
-          <p className="font-semibold text-slate-600 mb-2">
-            Jagung Manis Master Sweet 250GR
-          </p>
-          <p className="text-black font-bold mb-2">Rp 50.0000</p>
+          <p className="font-semibold text-slate-600 mb-2">{name}</p>
+          <p className="text-black font-bold mb-2">Rp {price}</p>
           <div className="text-green-600 flex gap-x-2 items-center">
-            <FontAwesomeIcon icon={faShop} /> <span>Duren Jaya Tani</span>
+            <FontAwesomeIcon icon={faShop} /> <span>{store}</span>
           </div>
         </div>
         <div className="w-80 flex">

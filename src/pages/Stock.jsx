@@ -31,13 +31,13 @@ export default function Stock() {
                 <td>Jagung Manis Master Sweet 250GR</td>
                 <td>
                   <img
-                    src="/assets/img/imgProduct.png"
+                    src="/assets/img/benih/benihJagung.png"
                     alt="product"
                     className="w-20 h-20"
                   />
                 </td>
                 <td>
-                  <span className="font-bold">Rp 50.0000</span>{" "}
+                  <span className="font-bold">Rp 30.0000</span>{" "}
                 </td>
                 <td>Lorem ipsum dolor sit amet ...</td>
                 <td>898</td>
@@ -53,16 +53,16 @@ export default function Stock() {
                 </td>
               </tr>
               <tr>
-                <td>Jagung Manis Master Sweet 250GR</td>
+                <td>benih semangka</td>
                 <td>
                   <img
-                    src="/assets/img/imgProduct.png"
+                    src="/assets/img/benih/benihSemangka.png"
                     alt="product"
                     className="w-20 h-20"
                   />
                 </td>
                 <td>
-                  <span className="font-bold">Rp 50.0000</span>{" "}
+                  <span className="font-bold">Rp 25.0000</span>{" "}
                 </td>
                 <td>Lorem ipsum dolor sit amet ...</td>
                 <td>898</td>
@@ -78,16 +78,16 @@ export default function Stock() {
                 </td>
               </tr>
               <tr>
-                <td>Jagung Manis Master Sweet 250GR</td>
+                <td>benih Timun</td>
                 <td>
                   <img
-                    src="/assets/img/imgProduct.png"
+                    src="/assets/img/benih/benihTimun.png"
                     alt="product"
                     className="w-20 h-20"
                   />
                 </td>
                 <td>
-                  <span className="font-bold">Rp 50.0000</span>{" "}
+                  <span className="font-bold">Rp 20.0000</span>{" "}
                 </td>
                 <td>Lorem ipsum dolor sit amet ...</td>
                 <td>898</td>
@@ -103,7 +103,7 @@ export default function Stock() {
                 </td>
               </tr>
               <tr>
-                <td>Jagung Manis Master Sweet 250GR</td>
+                <td>benih Tomat</td>
                 <td>
                   <img
                     src="/assets/img/imgProduct.png"
@@ -112,7 +112,7 @@ export default function Stock() {
                   />
                 </td>
                 <td>
-                  <span className="font-bold">Rp 50.0000</span>{" "}
+                  <span className="font-bold">Rp 25.0000</span>{" "}
                 </td>
                 <td>Lorem ipsum dolor sit amet ...</td>
                 <td>898</td>

@@ -1,6 +1,5 @@
 import React from "react";
 import Page from "../components/templates/page";
-import ListCart from "../components/molecules/ListCart";
 import Button from "../components/atoms/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -18,7 +17,7 @@ export default function DetailProduct() {
           <div className="w-full flex max-w-5xl p-5 ">
             <div className="w-64 h-64 bg-red-100 rounded-lg">
               <img
-                src="/assets/img/imgProduct.png"
+                src="/assets/img/pupuk/Esta Kieser MAG Pupuk Kiesrite.png"
                 alt="product"
                 className="w-full h-full object-cover rounded-lg"
               />
@@ -50,12 +49,21 @@ export default function DetailProduct() {
               <div className="w-full">
                 <p className="text-green-700 font-bold ">Deskripsi</p>
                 <p className="text-slate-500 my-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Temporibus laborum consequuntur minima error similique
-                  accusamus. Vitae facere doloribus, eaque minima beatae qui
-                  voluptatibus, sed nesciunt delectus distinctio impedit
-                  blanditiis doloremque quia explicabo animi cum! Dolorum quas
-                  dolores omnis magni similique facere quisquam.
+                  Pupuk ESTA Kieser-MAG® merupakan hasil ekstraksi mineral
+                  Kieserit alami melalui proses pemisahan elektrostatis endapan
+                  garam yang ramah lingkungan di Jerman. Magnesium merupakan
+                  pusat atom dari molekul klorofil, yang menjadi pigmen warna
+                  hijau di daun. Ketersediaan unsur hara Magnesium yang optimal
+                  dapat menghasilkan hijau daun dan meningkatkan produksi
+                  asimilat untuk mendapatkan hasil produksi yang tinggi. ESTA
+                  Kieser-MAG® mengandung unsur hara Magnesium dan Sulfur.
+                  Merupakan unsur hara Magnesium dan Sulfur yang efisien untuk
+                  tanaman Kelapa Sawit. Pupuk ini cocok untuk diaplikasikan pada
+                  semua tipe tanah dan tidak tergantung pada pH tanah. Pupuk
+                  ESTA Kieser-MAG® merupakan pupuk Magnesium berbasis Sulfur
+                  yang dikhususkan untuk menyeimbangkan unsur hara dalam sistem
+                  pertanian intensif yang bertujuan untuk mendapatkan
+                  produktivitas dan kualitas produksi yang tinggi.
                 </p>
                 <p className="text-slate-500 my-2">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.

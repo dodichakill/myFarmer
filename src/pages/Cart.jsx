@@ -20,16 +20,51 @@ export default function Cart() {
                   id="all"
                 />
                 <label className="cursor-pointer label" htmlFor="all">
-                  Pilih semua
+                  Pilih semua (6)
                 </label>
               </div>
             </div>
-            <ListCart isCheck={true} />
-            <ListCart isCheck={true} />
-            <ListCart isCheck={true} />
-            <ListCart isCheck={true} />
-            <ListCart isCheck={true} />
-            <ListCart />
+            <ListCart
+              isCheck={true}
+              name="Acrobat 10GR"
+              imgUrl="/public/assets/img/pestisida/Acrobat 10GR.png"
+              price="13.000"
+              store="Duren Jaya Tani"
+            />
+            <ListCart
+              name="Raja Lele Rimba 1LT"
+              imgUrl="/public/assets/img/pestisida/Raja Lele Rimba 1LT.png"
+              price="35.000"
+              store="Duren Jaya Tani"
+            />
+            <ListCart
+              isCheck={true}
+              name="Spontan 1LT"
+              imgUrl="/public/assets/img/pestisida/Spontan 1LT.png"
+              price="120.000"
+              store="Duren Jaya Tani"
+            />
+            <ListCart
+              isCheck={true}
+              name="Sirkus 1LT"
+              imgUrl="/public/assets/img/pestisida/Sirkus 1LT.png"
+              price="36.000"
+              store="Duren Jaya Tani"
+            />
+            <ListCart
+              isCheck={true}
+              name="Neo Antisep"
+              imgUrl="/public/assets/img/peralatan/Neo Antisep.png"
+              price="120.000"
+              store="Duren Jaya Tani"
+            />
+            <ListCart
+              isCheck={true}
+              name="Imustim"
+              imgUrl="/public/assets/img/peralatan/Imustim.png"
+              price="240.000"
+              store="Duren Jaya Tani"
+            />
           </div>
           <div className="w-1/3 h-fit p-5 bg-white rounded sticky top-32">
             <h2 className="font-bold text-slate-700 text-xl">
@@ -37,7 +72,7 @@ export default function Cart() {
             </h2>
             <div className="flex w-full justify-between text-slate-400">
               <p>Total Harga (5 barang) </p>
-              <p>Rp 250.000</p>
+              <p>Rp 529.000</p>
             </div>
             <div className="flex w-full justify-between text-slate-400">
               <p>Ongkos Kirim </p>
@@ -49,7 +84,7 @@ export default function Cart() {
             </div>
             <div className="flex w-full justify-between pt-4 border-t-2">
               <h2 className="font-bold text-slate-700 text-xl">Total Harga</h2>
-              <p className="text-slate-400 font-bold">Rp 266.000</p>
+              <p className="text-slate-400 font-bold">Rp 545.000</p>
             </div>
             <Button customStyle="w-full mt-5 rounded-xl">Beli Sekarang</Button>
           </div>

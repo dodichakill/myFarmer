@@ -21,7 +21,7 @@ export default function Login() {
             className="input input-bordered w-full max-w-xs mt-5 bg-white"
           />
           <input
-            type="text"
+            type="password"
             placeholder="Password"
             className="input input-bordered w-full max-w-xs mt-3 bg-white"
           />
