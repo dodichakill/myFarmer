@@ -20,7 +20,7 @@ export default function Education() {
           <CardArticle name="Intensifikasi Pertanian: Pengertian dan Contohnya" />
           <CardArticle
             name="Cara menjadi petani yang sukses"
-            imgUrl="/public/assets/img/education/tips sukses.jpg"
+            imgUrl="assets/img/education/tips sukses.jpg"
             date="09/04/2023"
           />
 
@@ -31,12 +31,12 @@ export default function Education() {
             <CardVideo name="Menanam Cabe Rawit tanpa olah tanah " />
             <CardVideo
               name="Memaksimalkan potensi tanah untuk pertanian "
-              imgUrl="/public/assets/img/education/tips sukses.jpg"
+              imgUrl="assets/img/education/tips sukses.jpg"
             />
             <CardVideo name="Menanam Cabe Rawit tanpa olah tanah " />
             <CardVideo
               name="Memaksimalkan potensi tanah untuk pertanian "
-              imgUrl="/public/assets/img/education/tips sukses.jpg"
+              imgUrl="assets/img/education/tips sukses.jpg"
             />
             <CardVideo name="Menanam Cabe Rawit tanpa olah tanah " />
           </div>

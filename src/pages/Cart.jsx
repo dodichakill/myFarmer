@@ -27,41 +27,41 @@ export default function Cart() {
             <ListCart
               isCheck={true}
               name="Acrobat 10GR"
-              imgUrl="/public/assets/img/pestisida/Acrobat 10GR.png"
+              imgUrl="assets/img/pestisida/Acrobat 10GR.png"
               price="13.000"
               store="Duren Jaya Tani"
             />
             <ListCart
               name="Raja Lele Rimba 1LT"
-              imgUrl="/public/assets/img/pestisida/Raja Lele Rimba 1LT.png"
+              imgUrl="assets/img/pestisida/Raja Lele Rimba 1LT.png"
               price="35.000"
               store="Duren Jaya Tani"
             />
             <ListCart
               isCheck={true}
               name="Spontan 1LT"
-              imgUrl="/public/assets/img/pestisida/Spontan 1LT.png"
+              imgUrl="assets/img/pestisida/Spontan 1LT.png"
               price="120.000"
               store="Duren Jaya Tani"
             />
             <ListCart
               isCheck={true}
               name="Sirkus 1LT"
-              imgUrl="/public/assets/img/pestisida/Sirkus 1LT.png"
+              imgUrl="assets/img/pestisida/Sirkus 1LT.png"
               price="36.000"
               store="Duren Jaya Tani"
             />
             <ListCart
               isCheck={true}
               name="Neo Antisep"
-              imgUrl="/public/assets/img/peralatan/Neo Antisep.png"
+              imgUrl="assets/img/peralatan/Neo Antisep.png"
               price="120.000"
               store="Duren Jaya Tani"
             />
             <ListCart
               isCheck={true}
               name="Imustim"
-              imgUrl="/public/assets/img/peralatan/Imustim.png"
+              imgUrl="assets/img/peralatan/Imustim.png"
               price="240.000"
               store="Duren Jaya Tani"
             />
